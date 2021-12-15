@@ -1,0 +1,576 @@
+.topnav {
+  background-color:rgb(33,43,98);
+  width:100%;
+  box-shadow:0px 3px 6px #3c3c431A;
+  height:60px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .dropdown {
+  float: left;
+  color: #f2f2f2 !important;
+  text-align: center;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:10px;
+}
+#links{
+  float:right;
+}
+
+#login{
+  background-color:#ED2f59;
+  padding:5px 14px 5px 14px !important;
+  border-radius:5px;
+margin-right:20px;
+  }
+
+
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn:hover{
+    border-bottom:solid 3px white;
+    color:white;
+    text-decoration:none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 1150px !important;
+    height:390px !important;
+    right:15px;
+    margin-left:25% !important;
+    font-family:poppins;
+    border-radius:10px;
+    padding-bottom:100px;
+    top:58px !important;
+
+
+  }
+.dropdown-content h6{
+  color:purple;
+  font-weight:bolder;
+}
+.dropdown-content p{
+  color:black;
+font-size:12px;
+text-align:left;
+font-family:poppins;
+font-weight:bold;
+}
+
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(16, 16, 73) !important;
+    text-decoration: none;
+    margin-top:15px;
+    display: block;
+    font-size:12px;
+  }
+
+  .dropdown-content li:hover{
+    color:red;
+  }
+.dropdown-content li{
+  font-size:12px !important;
+text-align:left;
+color:black;
+font-family:poppins;
+}
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(156, 107, 156);
+    padding:8px;
+    border-radius:5px;
+    text-decoration:none;
+
+
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+
+#mainbg{
+  height:850px;
+background-image:url(../img/bgmain.png);
+background-size:cover;
+color:white;
+margin-bottom:50px;
+font-family:Poppins !important;
+
+background-position:center center;
+}
+.deploy-btn{
+  background-color:#ED2f59 !important;
+
+  padding-left:40px !important;
+  padding-right: 40px !important;
+  font-size:12px !important;
+  font-weight:bold !important;
+  padding-top:12px !important;
+  border-radius:8px !important;
+}
+#main-form{
+  height:700px;
+  margin-top:100px !important;
+  background-color: rgba(94,68,106, 0.9);
+  border-radius:10px;
+  right:40px;
+  padding:20px;
+}
+
+#video{
+  height:500px;
+  margin-bottom:30px;
+  background-color:#C7C7C7;
+  display:flex;
+  padding-top:200px;
+  padding-left:37%;
+}
+
+#vid{
+text-align:center;
+font-family:poppins;
+}
+#vid h2{
+  font-weight:bold;
+}
+#vid p{
+  font-weight:bold;
+  margin-top:20px;
+}
+.box{
+  height:300px;
+  border:solid 1px #E3E2E4;
+  font-family:poppins;
+  border-radius:10px;
+
+}
+.box:hover{
+  box-shadow: 0px 0px 10px 2px #505050;
+}
+.box img{
+  height:50px;
+  margin-bottom:20px;
+  margin-top:25px;
+}
+.box h6{
+font-weight:bolder;
+}
+#help{
+  color: #191919;
+text-align:center;
+font-family:poppins;
+margin-top:30px;
+margin-left:10px;
+}
+#help p{
+  font-size:13px;
+}
+#help h3{
+  font-weight:bolder;
+}
+.box2{
+  height:190px;
+  border:solid 1px #ECEBEC;
+  margin:10px;
+  border-radius:5px;
+
+
+}
+.box2 img{
+  margin-top:35%;
+  margin-bottom:15px;
+  padding-left:20% !important;
+}
+.box2 h6{
+  font-weight:bolder;
+  font-family:poppins;
+  text-align:center;
+}
+.box22 {
+  height:190px;
+  border:solid 1px #E8E8E8;
+  margin:10px;
+  border-radius:5px;
+  padding:60px;
+  padding-left:40px ;
+  font-family:poppins;
+
+}
+.box22 a{
+  color:red ;
+
+}
+
+.box22 a:hover{
+  background-color:pink;
+  border-radius:100%;
+  border:solid 1px pink;
+  height:100px;
+  color:red !important;
+  text-decoration:none;
+  padding:10px  ;
+  padding-left:10px ;
+  padding-right:10px;
+}
+
+
+.b1:hover{
+  border-color:#F676BB;
+  box-shadow: 0px 0px 1px 1px #F676BB;
+
+}
+
+
+.b3:hover{
+  border-color:#73bd73;
+  box-shadow: 0px 0px 1px 1px #73bd73;
+
+}
+
+.b4:hover{
+  border-color:#9ACCE4;
+  box-shadow: 0px 0px 1px 1px #9ACCE4;
+
+}
+
+
+
+.b5:hover{
+  border-color:#7569A0;
+  box-shadow: 0px 0px 1px 1px #7569A0;
+
+}
+
+.b6:hover{
+  border-color:#C777EB;
+  box-shadow: 0px 0px 1px 1px #C777EB;
+
+}
+
+
+.b7:hover{
+  border-color:#777777;
+  box-shadow: 0px 0px 1px 1px #777777;
+
+}
+
+
+.b8:hover{
+  border-color:#7D9587;
+  box-shadow: 0px 0px 1px 1px #7D9587;
+
+}
+
+
+.b9:hover{
+  border-color:#F09B5D;
+
+  box-shadow: 0px 0px 1px 1px #F676BB;
+
+}
+
+.b10:hover{
+  border-color:#4864D6;
+
+  box-shadow: 0px 0px 1px 1px #4864D6;
+
+}
+
+.b11:hover{
+  border-color:#B8D9FD;
+
+  box-shadow: 0px 0px 1px 1px #B8D9FD;
+
+}
+
+.b12:hover{
+  border-color:#F75D9E;
+
+  box-shadow: 0px 0px 1px 1px #F75D9E;
+
+}
+
+.b13:hover{
+  border-color:#8ACBEB;
+  box-shadow: 0px 0px 1px 1px#8ACBEB;
+
+}
+
+.b14:hover{
+  border-color:#D697F1;
+  box-shadow: 0px 0px 1px 1px #D697F1;
+
+}
+.b15:hover{
+  border-color:#F15D5D;
+  box-shadow: 0px 0px 1px 1px #F15D5D;
+
+
+}
+
+.b16:hover{
+  border-color:#9E8C9E;
+  box-shadow: 0px 0px 1px 1px #9E8C9E;
+
+}
+.b17:hover{
+  border-color:#F85A94;
+  box-shadow: 0px 0px 1px 1px #F85A94;
+
+
+}
+
+.b18:hover{
+  border-color:#E8E8E8;
+  box-shadow: 0px 0px 1px 1px #E8E8E8;
+
+}
+#option h1{
+  margin-top:100px;
+font-weight:bolder;
+text-align:center;
+font-family:poppins;
+
+}
+#option p{
+  font-weight:bolder;
+  text-align:center;
+  font-family:poppins;
+  font-size:larger;
+  margin-bottom:60px;
+
+  }
+
+
+#stories h3{
+font-weight:bolder;
+font-family:poppins;
+margin-top:60px;
+}
+#stories p{
+  font-weight:bolder;
+  font-family:poppins
+}
+#dash{
+  text-align:center;
+  font-family:poppins;
+}
+#dash h2{
+  font-weight:bolder;
+}
+#dash h3{
+  font-weight:lighter;
+  color:grey;
+}
+.icon {
+  border-right:solid 1px grey;
+}
+#resources h1{
+  margin-top:100px;
+font-weight:bolder;
+text-align:center;
+font-family:poppins;
+
+
+}
+#resources p{
+  font-weight:bolder;
+  text-align:center;
+  font-family:poppins;
+  font-size:medium;
+  }
+
+.resources{
+height:440px;
+border:solid 2px rgb(191, 187, 187);
+border-radius:5px;
+padding-top:15px;
+
+}
+.resources p{
+  font-size:12px;
+  font-family:poppins;
+
+}
+.resources span{
+  font-size:small;
+  font-style:italic;
+}
+.resources:hover{
+  box-shadow: 0px 0px 2px 2px rgb(191, 187, 187);
+
+}
+.resources img{
+  border-radius:5px;
+}
+
+.pic{
+  border:solid 1px grey;
+  background-color:grey;
+  width:100%;
+  height:150px;
+  border-radius:5px
+}
+
+#migrate{
+  height:320px;
+  background-image:url(../img/bg1.png);
+  background-size:cover;
+  background-position:center center;
+  margin-top:50px;
+  margin-bottom:50px;
+  color:white;
+  padding-top:50px;
+  font-family:poppins;
+
+}
+
+
+
+
+
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: solid 1px #EAEAEB;
+  outline: none;
+  transition: 0.4s;
+  font-family:poppins;
+  box-shadow:1px 1px 1px 1px #F2F2F2;
+
+}
+.acc{
+  border-top-right-radius:10px !important;
+  border-top-left-radius:10px !important;
+
+}
+.acc2{
+  border-bottom-right-radius:10px !important;
+  border-bottom-left-radius:10px !important;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+
+    padding: 0 18px ;
+    background-color: #F5F4F4;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    font-family:poppins;
+
+}
+
+.accordion:after {
+  content: '▶	'; /* Unicode character for "play" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\U+25BC"; /* Unicode character for "minus" sign (-) */
+}
+
+
+#partners{
+  margin-top:80px;
+  margin-bottom:50px;
+}
+
+#dale{
+  height:400px;
+  background-color:#ED4659;
+  border-radius:40px;
+  margin-right:-120px;
+  position:relative;
+  z-index:2;
+  padding:30px;
+  text-align:center;
+  color:white;
+  font-family:poppins;
+
+}
+
+#dale img{
+  margin-top:-80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+  background-image:url(../img/bgmain2.png);
+  height:580px;
+  background-size:cover;
+  padding-top:50px;
+
+}
+
+
+#footer ul li a{
+  color:white !important;
+  font-size:10px;
+}
+#footer h6{
+  margin-bottom:20px !important;
+  font-family:Poppins !important;
+
+
+}
+#footer p{
+  color:white !important;
+  font-size:16px;
+  font-family:Poppins;
+}
