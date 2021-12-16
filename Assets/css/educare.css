@@ -1,3 +1,7 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 .topnav {
   background-color:rgb(33,43,98);
   width:100%;
@@ -54,22 +58,23 @@ margin-right:20px;
     height:390px !important;
     right:15px;
     margin-left:25% !important;
-    font-family:poppins;
     border-radius:10px;
     padding-bottom:100px;
     top:58px !important;
+    font-family: 'Poppins', sans-serif;
 
 
   }
 .dropdown-content h6{
   color:purple;
   font-weight:bolder;
+  font-family: 'Poppins', sans-serif;
+
 }
 .dropdown-content p{
   color:black;
 font-size:12px;
 text-align:left;
-font-family:poppins;
 font-weight:bold;
 }
 
@@ -90,7 +95,6 @@ font-weight:bold;
   font-size:12px !important;
 text-align:left;
 color:black;
-font-family:poppins;
 cursor:pointer;
 }
   /* Change color of dropdown links on hover */
@@ -157,9 +161,14 @@ background-image:url(../img/bgmain.png);
 background-size:cover;
 color:white;
 margin-bottom:50px;
-font-family:Poppins !important;
 
 background-position:center center;
+}
+
+#mainbg h1{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:20px;
+
 }
 .deploy-btn{
   background-color:#ED2f59 !important;
@@ -189,21 +198,19 @@ background-position:center center;
   padding-left:37%;
 }
 
-#vid{
+.vid{
 text-align:center;
-font-family:poppins;
 }
-#vid h2{
-  font-weight:bold;
+.vid h2{
+  font-family: 'Poppins', sans-serif;
 }
-#vid p{
+.vid p{
   font-weight:bold;
   margin-top:20px;
 }
 .box{
   height:300px;
   border:solid 1px #E3E2E4;
-  font-family:poppins;
   border-radius:10px;
 
 }
@@ -221,7 +228,6 @@ font-weight:bolder;
 #help{
   color: #191919;
 text-align:center;
-font-family:poppins;
 margin-top:30px;
 margin-left:10px;
 }
@@ -246,7 +252,6 @@ margin-left:10px;
 }
 .box2 h6{
   font-weight:bolder;
-  font-family:poppins;
   text-align:center;
 }
 .box22 {
@@ -256,7 +261,6 @@ margin-left:10px;
   border-radius:5px;
   padding:60px;
   padding-left:40px ;
-  font-family:poppins;
 
 }
 .box22 a{
@@ -392,13 +396,11 @@ margin-left:10px;
   margin-top:100px;
 font-weight:bolder;
 text-align:center;
-font-family:poppins;
 
 }
 #option p{
   font-weight:bolder;
   text-align:center;
-  font-family:poppins;
   font-size:larger;
   margin-bottom:60px;
 
@@ -407,12 +409,10 @@ font-family:poppins;
 
 #stories h3{
 font-weight:bolder;
-font-family:poppins;
 margin-top:60px;
 }
 #stories p{
   font-weight:bolder;
-  font-family:poppins
 }
 
 .slideshow-container {
@@ -467,7 +467,6 @@ margin-top:60px;
 
 #dash{
   text-align:center !important;
-  font-family:poppins;
 }
 #dash h2{
   font-weight:bolder;
@@ -483,14 +482,12 @@ margin-top:60px;
   margin-top:100px;
 font-weight:bolder;
 text-align:center;
-font-family:poppins;
 
 
 }
 #resources p{
   font-weight:bolder;
   text-align:center;
-  font-family:poppins;
   font-size:medium;
   }
 
@@ -503,7 +500,6 @@ padding-top:15px;
 }
 .resources p{
   font-size:12px;
-  font-family:poppins;
 
 }
 .resources span{
@@ -535,7 +531,6 @@ padding-top:15px;
   margin-bottom:50px;
   color:white;
   padding-top:50px;
-  font-family:poppins;
 
 }
 
@@ -553,7 +548,6 @@ padding-top:15px;
   border: solid 1px #EAEAEB;
   outline: none;
   transition: 0.4s;
-  font-family:poppins;
   box-shadow:1px 1px 1px 1px #F2F2F2;
 
 }
@@ -579,7 +573,6 @@ padding-top:15px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
-    font-family:poppins;
 
 }
 
@@ -611,7 +604,6 @@ padding-top:15px;
   padding:30px;
   text-align:center;
   color:white;
-  font-family:poppins;
 
 }
 
@@ -629,7 +621,6 @@ padding-top:15px;
   padding:30px;
   text-align:center;
   color:white;
-  font-family:poppins;
 
 }
 
@@ -647,7 +638,6 @@ padding-top:15px;
   padding:30px;
   text-align:center;
   color:white;
-  font-family:poppins;
 
 }
 
@@ -666,7 +656,6 @@ padding-top:15px;
   padding:30px;
   text-align:center;
   color:white;
-  font-family:poppins;
 
 }
 
@@ -680,16 +669,13 @@ text-align:center;
 padding-top:120px;
 background-image:url(../img/accountsbg.svg);
 background-size:cover;
-font-family:poppins;
 font-weight:bolder;
 
 }
 
 
-#report h5{
-  font-weight:bolder;
 
-}
+
 
 
 
@@ -705,14 +691,12 @@ font-weight:bolder;
 #center h2{
   text-align:center;
   font-weight:bolder !important;
-  font-family:poppins;
 }
 
 
 #center p{
   text-align:center;
   font-weight:bolder !important;
-  font-family:poppins;
 }
 
 
@@ -731,10 +715,12 @@ font-weight:bolder;
   padding: 14px 16px;
   transition: 0.3s;
   border-right: 2px solid #ccc;
-  font-family:poppins;
 
 }
-
+.tabcontent h4{
+  margin-top:60px;
+  font-weight:bolder;
+}
 /* Change background color of buttons on hover */
 /* .tab button:hover {
   background-color: #ddd;
@@ -763,15 +749,68 @@ padding-bottom:90px;
 }
 
 #mig h1{
-  font-family:poppins;
   font-weight:bold;
 }
 #mig p{
-  font-family:poppins;
   font-weight:bold;
   font-size:25px;
   margin-top:40px;
 }
+
+#overview{
+  height:500px;
+  background-image:url(../img/children.png);
+  background-size:cover;
+  margin-top:80px;
+  padding-top:80px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:80px;
+
+}
+#overview h2{
+  font-weight:bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#overview h6{
+  font-weight:bolder;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:30px;
+  margin-top:20px;
+
+}
+
+
+#mobile{
+  height:450px;
+  margin-top:50px;
+
+background-color:#212B62;
+  background-image:url(../img/appbg.png);
+  background-size:cover;
+  margin-bottom:60px;
+
+}
+#flowers{
+  height:300px;
+  margin-top:50px;
+  background-image:url(../img/flowersbg.png);
+  background-size:cover;
+  margin-bottom:60px;
+  padding-top:100px;
+
+}
+#flowers h2{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
 
 
 #footer{
@@ -789,12 +828,10 @@ padding-bottom:90px;
 }
 #footer h6{
   margin-bottom:20px !important;
-  font-family:Poppins !important;
 
 
 }
 #footer p{
   color:white !important;
   font-size:16px;
-  font-family:Poppins;
 }
