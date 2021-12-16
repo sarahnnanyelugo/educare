@@ -2,6 +2,10 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+
+html{
+  scroll-behavior:smooth;
+}
 .topnav {
   background-color:rgb(33,43,98);
   width:100%;
@@ -88,8 +92,9 @@ font-weight:bold;
     font-size:12px;
   }
 
-  .dropdown-content li a:hover{
+  .dropdown-content ul li a:hover{
     color:red !important;
+    background-color:inherit !important;
   }
 .dropdown-content li{
   font-size:12px !important;
