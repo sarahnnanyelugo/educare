@@ -584,7 +584,7 @@ padding-top:15px;
 .accordion:after {
   content: '▶	'; /* Unicode character for "play" sign (+) */
   font-size: 13px;
-  color: #777;
+  color: #777 !important;
   float: right;
   margin-left: 5px;
 }
