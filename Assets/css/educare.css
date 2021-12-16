@@ -606,9 +606,10 @@ padding-top:15px;
   margin-right:-120px;
   position:relative;
   z-index:2;
-  padding:30px;
+  padding:20px;
   text-align:center;
   color:white;
+  font-size:13px;
 
 }
 
@@ -623,9 +624,10 @@ padding-top:15px;
   margin-right:-120px;
   position:relative;
   z-index:2;
-  padding:30px;
+  padding:20px;
   text-align:center;
   color:white;
+  font-size:13px;
 
 }
 
@@ -643,6 +645,7 @@ padding-top:15px;
   padding:30px;
   text-align:center;
   color:white;
+  font-size:13px;
 
 }
 
@@ -658,9 +661,10 @@ padding-top:15px;
   margin-right:-120px;
   position:relative;
   z-index:2;
-  padding:30px;
+  padding:10px;
   text-align:center;
   color:white;
+  font-size:13px;
 
 }
 
