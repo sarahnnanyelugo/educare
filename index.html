@@ -54,12 +54,23 @@ Educare    </title>
 <p>Plan and organize your school year collaboratively with all your information in the cloud, enroll, collect and manage your team as
     effectively as possible, communicate to your entire school and your parents, within the same platform and monitor classes, courses grades and forget about
 dispersed information.</p>
+
+
+
 <div  style="display:flex; ">
 <a class="btn text-light deploy-btn"> Deploy in Seconds</a>
 <a class="btn btn-lg btn-light" style="color:#ED2f59; margin-left:10px ; border:solid 1px #ED2f59; "> Contact Us</a>
 
 </div>
+<div style="display:flex; margin-top:340px;">
+<img src="Assets/img/dsource.png">
+<div class="col-md-3">&nbsp;</div>
+<div>
+<img src="Assets/img/drop.svg" ><br>
+<img src="Assets/img/arrowdown.svg" >
 
+</div>
+</div>
 </div>
 <div class="col-md-1">&nbsp;</div>
 <form class="col-md-4" id="main-form">
@@ -496,45 +507,12 @@ dispersed information.</p>
 </div>
 </div></div></div>
 
+<!--Beginnning of-Accordion-->
 
 
-<div clasa="row" >
-    <h3 style="text-align:center; font-family:poppins">Frequently asked questions (FAQs)</h3>
+<div w3-include-html="accordion.html"></div>
+<!--end of accordion-->
 
-    <div class="col-md-12" style="display:flex">
-    <div class="col-md-1">&nbsp;</div>
-    <div class="col-md-10 ">
-
-        <button class="accordion acc">How can I enroll my school? </button>
-        <div class="panel">
-          <p>Getting your school enrolled is so easy. Just click on <a href="#">Sign Up</a> to onboard your school in seconds.</p>
-        </div>
-
-        <button class="accordion">Can one account manage multi schools?</button>
-        <div class="panel">
-          <p>Educare gives you the power to manage all your schols with one single account. We also offer free data migration service for our enterprise customers</p>
-        </div>
-        <button class="accordion">How secure is my data??</button>
-        <div class="panel">
-          <p>educare is GDPR COMPLIANT. From day one, we built educare to help
-               you manage your school efficiently. We do not share/sell your data.
-               The educare software is optimize with end-to-end encription to ensure maximum data security.</p>
-        </div>
-
-
-
-        <button class="accordion acc2">Do you offer phone support?</button>
-        <div class="panel">
-          <p>Yes, our customer support team are here 24/7 to assist you with a prompt response. Give it a shot! Get help now</p>
-        </div>
-
-
-
-
-</div>
-    </div>
-
-</div>
 
 <div class="row" id="partners">
 <div class="col-md-12" style="display:flex" >
@@ -579,22 +557,7 @@ dispersed information.</p>
 
     <script src="Assets/js/custom.js"></script>
 
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-          });
-        }
-        </script>
+
 <script>
     var slideIndex = 1;
         showSlides(slideIndex);

@@ -83,14 +83,15 @@ font-weight:bold;
     font-size:12px;
   }
 
-  .dropdown-content li:hover{
-    color:red;
+  .dropdown-content li a:hover{
+    color:red !important;
   }
 .dropdown-content li{
   font-size:12px !important;
 text-align:left;
 color:black;
 font-family:poppins;
+cursor:pointer;
 }
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
@@ -673,23 +674,104 @@ padding-top:15px;
   margin-top:-80px;
 }
 
+#report{
+  height:500px;
+text-align:center;
+padding-top:120px;
+background-image:url(../img/accountsbg.svg);
+background-size:cover;
+font-family:poppins;
+font-weight:bolder;
+
+}
+
+
+#report h5{
+  font-weight:bolder;
+
+}
 
 
 
+#report h1{
+  font-weight:bolder;
+  }
+#report p{
+  margin-top:30px;
+  font-size:14px;
+}
+
+
+#center h2{
+  text-align:center;
+  font-weight:bolder !important;
+  font-family:poppins;
+}
+
+
+#center p{
+  text-align:center;
+  font-weight:bolder !important;
+  font-family:poppins;
+}
 
 
 
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-right: 2px solid #ccc;
+  font-family:poppins;
+
+}
+
+/* Change background color of buttons on hover */
+/* .tab button:hover {
+  background-color: #ddd;
+} */
+
+/* Create an active/current tablink class */
+.tab button.active2 {
+border-bottom:solid 3px black;
+font-weight:bolder;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none ;
+  padding: 6px 12px;
+  border-top: none;
+
+}
 
 
+#mig{
+  background-color:rgb(247, 240, 240);
+  text-align:center;
+  padding-top:90px;
+padding-bottom:90px;
+}
 
-
-
-
-
-
-
-
-
+#mig h1{
+  font-family:poppins;
+  font-weight:bold;
+}
+#mig p{
+  font-family:poppins;
+  font-weight:bold;
+  font-size:25px;
+  margin-top:40px;
+}
 
 
 #footer{

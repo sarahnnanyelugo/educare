@@ -33,99 +33,27 @@ includeHTML();
 
 
 
-	jQuery(document).ready(function() {
 
-    var pick=false;
-    $("#searchButton").click(function(e){
-      pick=!pick;
-      console.log(pick)
-      if(pick==true){
-        $("#searchbar").addClass("Search-container");
-        $("#searchbar").removeClass("hid")
-          }
-          else{
-          $("#searchbar").removeClass("Search-container")
-          $("#searchbar").addClass("hid");
-          }
-    })
-
-    $("#closeSearch").click(function(e){
-      pick=false;
-      $("#searchbar").removeClass("Search-container")
-          $("#searchbar").addClass("hid");
-
-    })
-
-    window.setTimeout(function(){
-      $("#about").removeClass("activenavbar")
-      $("#admission").removeClass("activenavbar")
-      $("#learning").removeClass("activenavbar")
-      $("#student").removeClass("activenavbar")
-      $("#protection").removeClass("activenavbar")
-      $("#gallery").removeClass("activenavbar")
-      $("#news").removeClass("activenavbar")
-
-      if($("#tag").val() =="about")
-      {
-        $("#about").addClass("activenavbar")
-
-      }
-      if($("#tag").val() =="admission")
-      {
-        $("#admission").addClass("activenavbar")
-      }
-      if( $("#tag").val()=="learning")
-      {
-        $("#learning").addClass("activenavbar")
-      }
-
-      if($("#tag").val() =="student")
-      {
-        $("#student").addClass("activenavbar")
-      }
-
-
-      if($("#tag").val() =="protection")
-      {
-        $("#protection").addClass("activenavbar")
-      }
-
-
-      if($("#tag").val() =="gallery")
-      {
-        $("#gallery").addClass("activenavbar")
-      }
-
-
-      if($("#tag").val() =="news")
-      {
-        $("#news").addClass("activenavbar")
-      }
+//for accordion
 
 
 
-   },200);
 
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
