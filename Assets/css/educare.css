@@ -103,7 +103,50 @@ font-family:poppins;
   }
 
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+     height:250px;
+     opacity:1;
+
+ }
+ @keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
 
 
 
@@ -370,8 +413,59 @@ margin-top:60px;
   font-weight:bolder;
   font-family:poppins
 }
+
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+ .mySlides {
+  display: none;
+}
+
+
+ .dot {
+  cursor: pointer;
+  height: 5px !important;
+  width: 25px !important;
+  margin: 0 2px;
+  display: inline-block !important;
+  transition: 0.6s ease;
+  background-color :pink !important;
+  border-radius:2px;
+}
+
+.active1, .dot:hover {
+  background-color:red !important;
+}
+
+.faded {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
 #dash{
-  text-align:center;
+  text-align:center !important;
   font-family:poppins;
 }
 #dash h2{
@@ -524,12 +618,60 @@ padding-top:15px;
   margin-top:-80px;
 }
 
+#lbs{
+  height:400px;
+  background-color:#345376;
+  border-radius:40px;
+  margin-right:-120px;
+  position:relative;
+  z-index:2;
+  padding:30px;
+  text-align:center;
+  color:white;
+  font-family:poppins;
+
+}
+
+#lbs img{
+  margin-top:-80px;
+}
+
+#imad{
+  height:400px;
+  background-color:#475992;
+  border-radius:40px;
+  margin-right:-120px;
+  position:relative;
+  z-index:2;
+  padding:30px;
+  text-align:center;
+  color:white;
+  font-family:poppins;
+
+}
+
+#imad img{
+  margin-top:-80px;
+}
 
 
+#gregory{
+  height:400px;
+  background-color:#212B62;
+  border-radius:40px;
+  margin-right:-120px;
+  position:relative;
+  z-index:2;
+  padding:30px;
+  text-align:center;
+  color:white;
+  font-family:poppins;
 
+}
 
-
-
+#gregory img{
+  margin-top:-80px;
+}
 
 
 

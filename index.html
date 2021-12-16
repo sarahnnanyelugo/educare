@@ -31,7 +31,6 @@ Educare    </title>
     <script src="Assets/js/jquery2.min.js"></script>
 
 
-<!---the script above is for contacts-->
 <style>
 
 
@@ -39,6 +38,11 @@ Educare    </title>
     </style>
 
 </head>
+
+
+
+
+
 
 <body>
     <div class="container-fluid">
@@ -289,10 +293,14 @@ dispersed information.</p>
 </div>
 
 
+<!--div for stories/ testimonials-->
+
 
 <div class="row" id="stories">
+    <div class="slideshow-container" style="width:100%">
 
-    <div class="col-md-12" style="display:flex; margin-top:80px;">
+<div class="mySlides faded">
+    <div class="col-md-12 " style="display:flex; margin-top:80px;">
 <div class="col-md-1">&nbsp;</div>
     <div class="col-md-4">
 <h3>‘educare stories’ <br>presents</h3>
@@ -316,8 +324,110 @@ dispersed information.</p>
         <img src="Assets/img/default.png" height="450px;">
     </div>
 </div>
+
 </div>
 
+
+<div class="mySlides faded">
+    <div class="col-md-12 " style="display:flex; margin-top:80px;">
+<div class="col-md-1">&nbsp;</div>
+    <div class="col-md-4">
+<h3>‘educare stories’ <br>presents</h3>
+        <img src="Assets/img/cdlogo.png" height="40px">
+        <p>Head of ICT at Lekki British School who discovered a collaborative and agile way to connect the teacher and the students.</p>
+        </div>
+
+        <div class="col-md-1">&nbsp;</div>
+
+        <div class="col-md-3" id="lbs" >
+            <div style="display:flex">
+            <div class="col-md-3"></div>
+        <img src="Assets/img/lbs.png"  class="col-md-6"></div>
+<p style="margin-bottom:50px; margin-top:40px">A very satisfying experience, with a platform that adapts to the reality of our kindergarten and connects with students and parents.”</p>
+<h6>Mrs. Attoh</h6>
+<p>Charlesdale School<br>(Nigeria)</p>
+    </div>
+
+
+    <div class="col-md-2">
+        <img src="Assets/img/bg2.png" height="350px;">
+    </div>
+</div>
+
+</div>
+
+<div class="mySlides faded">
+    <div class="col-md-12 " style="display:flex; margin-top:80px;">
+<div class="col-md-1">&nbsp;</div>
+    <div class="col-md-4">
+<h3>‘educare stories’ <br>presents</h3>
+        <img src="Assets/img/cdlogo.png" height="40px">
+        <p>Head of ICT at Lekki British School who discovered a collaborative and agile way to connect the teacher and the students.</p>
+        </div>
+
+        <div class="col-md-1">&nbsp;</div>
+
+        <div class="col-md-3" id="imad" >
+            <div style="display:flex">
+            <div class="col-md-3"></div>
+        <img src="Assets/img/imad.png"  class="col-md-6"></div>
+<p style="margin-bottom:50px; margin-top:40px">Administrator at Imaad School who is thrilled and satisfied educare's customer’s service .</p>
+<h6>Mrs. Attoh</h6>
+<p>Charlesdale School<br>(Nigeria)</p>
+    </div>
+
+
+    <div class="col-md-2">
+        <img src="Assets/img/bg3.png" height="350px;">
+    </div>
+</div>
+
+</div>
+
+
+<div class="mySlides faded">
+    <div class="col-md-12 " style="display:flex; margin-top:80px;">
+<div class="col-md-1">&nbsp;</div>
+    <div class="col-md-4">
+<h3>‘educare stories’ <br>presents</h3>
+        <img src="Assets/img/cdlogo.png" height="40px">
+        <p>Administrator at St. Gregory’s College who is satisfied educare's reporting and accounting module.</p>
+        </div>
+
+        <div class="col-md-1">&nbsp;</div>
+
+        <div class="col-md-3" id="gregory" >
+            <div style="display:flex">
+            <div class="col-md-3"></div>
+        <img src="Assets/img/imad.png"  class="col-md-6"></div>
+<p style="margin-bottom:50px; margin-top:40px">A very satisfying experience, with a platform that adapts to the reality of our kindergarten and connects with students and parents.”</p>
+<h6>Rev. Fr Emmanuel Ayeni</h6>
+<p>Charlesdale School<br>(Nigeria)</p>
+    </div>
+
+
+    <div class="col-md-2">
+        <img src="Assets/img/bg3.png" height="350px;">
+    </div>
+</div>
+
+</div>
+<div style="margin-top:-40px;position:relative; z-index:2">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+
+
+  </div>
+
+</div>
+
+
+
+</div>
+<!--end of stories/testimonials-->
 
 
 
@@ -485,6 +595,37 @@ dispersed information.</p>
           });
         }
         </script>
+<script>
+    var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active1", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active1";
+        }
+        </script>
+
 
 
 </body>
