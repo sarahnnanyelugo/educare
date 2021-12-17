@@ -109,7 +109,12 @@ cursor:pointer;
   div.hover:hover {
     background-color: #c9b9f9 !important;
     border-radius:5px !important;
-   padding:8px;
+
+  }
+
+
+  div.hover{
+    padding:8px;
 
   }
   div.hover a:hover{
@@ -124,6 +129,8 @@ color:purple;
   div.hover:hover .arrow{
 visibility:visible !important;
   }
+
+
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
