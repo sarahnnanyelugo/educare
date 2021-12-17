@@ -106,27 +106,28 @@ color:black;
 cursor:pointer;
 }
   /* Change color of dropdown links on hover */
-  div.hover:hover {
+  a.hover:hover {
     background-color: #c9b9f9 !important;
     border-radius:5px !important;
+    text-decoration:none !important;
 
   }
 
-
-  div.hover{
+  a.hover{
     padding:8px;
-
+margin-top:-3px;
   }
-  div.hover a:hover{
+  a.hover a:hover{
     text-decoration:none !important;
 
   }
   .arrow{
 visibility:hidden;
 color:purple;
+font-size:18px;
   }
 
-  div.hover:hover .arrow{
+  a.hover:hover .arrow{
 visibility:visible !important;
   }
 
