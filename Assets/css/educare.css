@@ -7,7 +7,7 @@ html{
   scroll-behavior:smooth;
 }
 .topnav {
-  background-color:rgb(33,43,98);
+  background-color:#1D0862;
   width:100%;
   box-shadow:0px 3px 6px #3c3c431A;
   height:60px;
@@ -103,11 +103,11 @@ color:black;
 cursor:pointer;
 }
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: rgb(156, 107, 156);
-    padding:8px;
-    border-radius:5px;
-    text-decoration:none;
+  div.hover:hover {
+    background-color: #c9b9f9 !important;
+    padding:8px !important;
+    border-radius:5px !important;
+    text-decoration:none !important;
 
 
   }
@@ -170,10 +170,18 @@ margin-bottom:50px;
 background-position:center center;
 }
 
-#mainbg h1{
+#mainbg h2{
   font-family: 'Poppins', sans-serif;
   margin-bottom:20px;
+  padding-left:50px;
+  margin-top:200px;
 
+}
+
+#mainbg p{
+  font-family: 'Poppins', sans-serif;
+font-size:14px;
+  padding-left:50px;
 }
 .deploy-btn{
   background-color:#ED2f59 !important;
