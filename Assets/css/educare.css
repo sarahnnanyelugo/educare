@@ -673,7 +673,7 @@ padding-top:15px;
 
 #imad{
   height:400px;
-  background-color:#475992;
+  background-color:#1D0862;
   border-radius:40px;
   margin-right:-120px;
   position:relative;
@@ -851,6 +851,77 @@ background-color:#212B62;
   font-family: 'Poppins', sans-serif;
 
 }
+
+#steps{
+  height:500px;
+  width:100%;
+  background-image:url(../img/steps.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+
+}
+#steps h1{
+  font-family: 'Poppins', sans-serif;
+margin-top:150px;
+margin-left:40px;
+}
+
+#steps p{
+  margin-top:30px;
+  margin-left:40px;
+}
+
+#sales-team h4{
+  margin-top:180px;
+  font-family: 'Poppins', sans-serif;
+margin-bottom:30px;
+}
+
+#sales-team p{
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+
+}
+#sales-team img{
+  margin-top:100px;
+  margin-bottom:80px;
+
+}
+#impact{
+  margin-top:150px;
+  margin-bottom:60px;
+}
+
+
+
+#impact h3{
+  font-family: 'Poppins', sans-serif;
+
+}
+#impact p{
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
