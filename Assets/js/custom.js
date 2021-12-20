@@ -147,7 +147,7 @@ jQuery(document).ready(function() {
   window.setTimeout(function(){
     $("#navbar").addClass($("#navTag").val());
     console.log($("#navTag").val())
-  },100);
+  },2000);
 
 
 });
