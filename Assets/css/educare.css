@@ -24,6 +24,78 @@ html{
   font-family: 'Poppins', sans-serif;
 
 }
+
+.topnav .dropdown .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.topnav2 .dropdown .dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.topnav3 .dropdown .dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.topnav .dropdown .dropbtn:hover{
+  border-bottom:solid 3px white;
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+
+
+
+.topnav2 {
+  background-color:#DBE9F7;
+  width:100%;
+  box-shadow:0px 3px 6px #3c3c431A;
+  height:60px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav2 .dropdown {
+  float: left;
+  color: black !important;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top:15px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.topnav3 {
+  background-color:white;
+  width:100%;
+  box-shadow:0px 3px 6px #3c3c431A;
+  height:60px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav3 .dropdown {
+  float: left;
+  color: black !important;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top:15px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
 #links{
   float:right;
 }
@@ -38,16 +110,25 @@ margin-left:30px;
   }
 
 
-  .dropbtn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  .dropbtn:hover{
-    border-bottom:solid 3px white;
-    color:white;
+
+
+
+
+
+.topnav2 .dropdown .dropbtn:hover{
+    border-bottom:solid 3px black;
+    color:black;
     text-decoration:none;
+    cursor:pointer;
+  }
+
+
+  .topnav3 .dropdown .dropbtn:hover{
+    border-bottom:solid 3px black;
+    color:black;
+    text-decoration:none;
+    cursor:pointer;
+
   }
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -241,7 +322,7 @@ font-size:14px;
 
 
 
-}
+
 #video{
   height:500px;
   margin-bottom:30px;
@@ -596,15 +677,26 @@ padding-top:15px;
   background-color: white;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 25px;
   width: 100%;
   text-align: left;
   border: solid 1px #EAEAEB;
   outline: none;
   transition: 0.4s;
   box-shadow:1px 1px 1px 1px #F2F2F2;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  font-size:18px;
+  box-shadow:0px 0px 2px 2px rgb(221, 219, 219);
 
 }
+
+.accordion p{
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+}
+
+
 .acc{
   border-top-right-radius:10px !important;
   border-top-left-radius:10px !important;
@@ -1273,6 +1365,81 @@ padding-bottom:30px;
 
 margin-bottom:30px !important;
 }
+
+
+#benefits h2{
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+}
+
+
+#benefits p{
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+  margin-top:30px;
+  margin-bottom:100px;
+  font-weight:bold;
+
+}
+.benefits{
+  height:75px;
+  border:solid 1px grey;
+  border-radius:10px;
+  box-shadow:0px 0px 2px 2px rgb(196, 193, 193);
+  text-align:left;
+  padding-top:25px;
+  font-family: 'Poppins', sans-serif;
+  font-size:14px;
+margin-top:40px;
+}
+
+.benefits i{
+  color:green;
+  font-size:20px !important;
+  padding-right:10px !important;
+  padding-left:10px !important;
+
+  font-weight:Bold;
+
+}
+
+.benefits p{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#questions{
+  height:300px;
+  background-color:#1D0862;
+  background-image:url(../img/pinkbg.png);
+  background-size:cover;
+  margin-bottom:80px;
+  text-align:left;
+}
+
+#questions h2{
+  font-family: 'Poppins', sans-serif;
+font-weight:bold;
+color:white;
+padding-top:60px;
+}
+#questions p{
+  font-family: 'Poppins', sans-serif;
+color:white;
+font-size:14px;
+margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
