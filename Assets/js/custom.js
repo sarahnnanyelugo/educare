@@ -146,7 +146,7 @@ window.onclick = function(event) {
 jQuery(document).ready(function() {
   window.setTimeout(function(){
     $("#navbar").addClass($("#navTag").val());
-    console.log($("#navTag").val()+ " current")
+    console.log($("#navTag").val()+ " new current")
   },2000);
 
 
