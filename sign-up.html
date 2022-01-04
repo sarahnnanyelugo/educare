@@ -161,7 +161,7 @@ Educare    </title>
     <img src="Assets/img/r-card.png" width="100%">
 
 <h6>Report Managment</h6>
-<p>Develop, distribute reports and easily analyze pupil data in minutes, no more paper works</p>
+<p style="height:60px">Develop, distribute reports and easily analyze pupil data in minutes, no more paper works</p>
 <a class="btn btn-signup">Learn more</a>
 
 </div>
@@ -174,7 +174,7 @@ Educare    </title>
         <img src="Assets/img/r-card3.png" width="100%">
 
     <h6>Finance Managment</h6>
-    <p>Keep track of your school’s income, using our secure and efficient system</p>
+    <p style="height:60px">Keep track of your school’s income, using our secure and efficient system</p>
     <a class="btn btn-signup">Learn more</a>
 
     </div>
@@ -187,7 +187,7 @@ Educare    </title>
           <img src="Assets/img/r-card4.png" width="100%">
 
       <h6>Admission Management</h6>
-      <p>Manage and enroll pupils easily and track the progress of admission in your school</p>
+      <p style="height:60px">Manage and enroll pupils easily and track the progress of admission in your school</p>
       <a class="btn btn-signup">Learn more</a>
 
       </div>
@@ -200,7 +200,7 @@ Educare    </title>
             <img src="Assets/img/r-card2.png" width="100%">
   
         <h6>Up-to-date activities</h6>
-        <p>Parents gets up to date activities of their children in school</p>
+        <p style="height:60px">Parents gets up to date activities of their children in school</p>
         <a class="btn btn-signup">Learn more</a>
 
         </div>
@@ -213,7 +213,7 @@ Educare    </title>
 
 </div>
 
-<div style="text-align:center">
+<div style="text-align:center; margin-top:30px">
   <span class="dot4" onclick="currentSlide(1)"></span>
   <span class="dot4" onclick="currentSlide(2)"></span>
   <span class="dot4" onclick="currentSlide(3)"></span>
@@ -253,11 +253,13 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
+
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+
 }
                 </script>
     </body>
