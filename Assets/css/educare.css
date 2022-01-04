@@ -1712,7 +1712,20 @@ padding-top:80px;
   margin-top:-10px;
 }
 
+.btn-signup{
+  background-color:#FAC0CD !important;
+  color:#ED3E37 !important;
+  border-radius:20px !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight:bold !important;
+  padding:10px !important;
+font-size:14px !important;
+padding-left:25px !important;
+padding-right:25px !important;
 
+
+
+}
 
 
 
