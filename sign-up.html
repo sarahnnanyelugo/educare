@@ -39,7 +39,47 @@ Educare    </title>
 
 <style>
 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.dot4 {
+  cursor: pointer;
+  height: 5px;
+  width: 25px;
+  margin: 0 2px;
+  background-color:#FAC0CD;
+  border-radius: 50%;
+  display: inline-flex !important;
+  transition: 0.6s ease;
+  border-radius:2px;
 
+}
+
+
+.active, .dot4:hover {
+  background-color: #ED4659;
+}
+.faded {
+  -webkit-animation-name: fade !important;
+  -webkit-animation-duration: 3s !important;
+  animation-name: fade !important;
+  animation-duration: 3s !important;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
     </style>
 
@@ -107,22 +147,79 @@ Educare    </title>
 
 
         <button class="form-control" style="background-color:#ED2f59; border:none; color:white; font-weight:bold; margin-bottom:30px">Submit</button>
-        <small >By signing up you agree to our <a href="#" style="color:#ED2f59;">Terms of Service</a></small><br>
-        <small>Already have an account with us? <a href="#" style="color:#ED2f59;">Login Here</a></small>
+        <small >By signing up you agree to our <a href="#" >Terms of Service</a></small><br>
+        <small>Already have an account with us? <a href="login.html" >Login Here</a></small>
 
 </form>
-<div class="col-md-5" id="r-card" style="display:flex">
+<div>
+<div class="col-md-5  slideshow-container" style=" display:flex; margin-top:70px">
+
 <div class="col-md-2">&nbsp;</div>
+<div class="mySlides faded col-md-12" id="r-card" >
+
 <div class="col-md-8">
     <img src="Assets/img/r-card.png" width="100%">
 
-<h6>Admission Management</h6>
-<p>Manage and enroll pupils easily and track the progress of admission in your school</p>
+<h6>Report Managment</h6>
+<p>Develop, distribute reports and easily analyze pupil data in minutes, no more paper works</p>
 <a class="btn btn-signup">Learn more</a>
 
 </div>
 
 
+</div>
+
+<div class="mySlides faded col-md-12" id="r-card" style="display:flex">
+    <div class="col-md-8">
+        <img src="Assets/img/r-card3.png" width="100%">
+
+    <h6>Finance Managment</h6>
+    <p>Keep track of your school’s income, using our secure and efficient system</p>
+    <a class="btn btn-signup">Learn more</a>
+
+    </div>
+
+
+    </div>
+
+    <div class="mySlides faded col-md-12" id="r-card" style="display:flex">
+      <div class="col-md-8">
+          <img src="Assets/img/r-card4.png" width="100%">
+
+      <h6>Admission Management</h6>
+      <p>Manage and enroll pupils easily and track the progress of admission in your school</p>
+      <a class="btn btn-signup">Learn more</a>
+
+      </div>
+
+
+      </div>
+
+      <div class="mySlides faded col-md-12" id="r-card" style="display:flex">
+        <div class="col-md-8">
+            <img src="Assets/img/r-card2.png" width="100%">
+  
+        <h6>Up-to-date activities</h6>
+        <p>Parents gets up to date activities of their children in school</p>
+        <a class="btn btn-signup">Learn more</a>
+
+        </div>
+  
+    
+        </div>
+
+
+
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot4" onclick="currentSlide(1)"></span>
+  <span class="dot4" onclick="currentSlide(2)"></span>
+  <span class="dot4" onclick="currentSlide(3)"></span>
+  <span class="dot4" onclick="currentSlide(3)"></span>
+
+</div>
 </div>
 
 
@@ -145,6 +242,24 @@ Educare    </title>
 
 
                 <script src="Assets/js/custom.js"></script>
+
+
+                <script>
+                  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+                </script>
     </body>
 
 
