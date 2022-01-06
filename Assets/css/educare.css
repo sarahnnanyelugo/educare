@@ -19,8 +19,9 @@ html{
   color: #f2f2f2 !important;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
-  margin-top:15px;
+  font-size: 14px;
+  margin-top:16px;
+  font-weight:bold;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -41,20 +42,22 @@ html{
 .topnav .dropdown .dropbtn {
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
+  font-weight:bold;
 }
 .topnav2 .dropdown .dropbtn {
   color: black;
   padding: 16px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
+  font-weight:bold;
 }
 
 .topnav3 .dropdown .dropbtn {
   color: black;
   padding: 16px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
 }
 
@@ -82,8 +85,9 @@ html{
   color: black !important;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
-  margin-top:15px;
+  font-size: 14px;
+  margin-top:16px;
+  font-weight:bold;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -102,8 +106,9 @@ html{
   color: black !important;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
-  margin-top:15px;
+  font-size: 14px;
+  margin-top:16px;
+  font-weight:bold;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -113,12 +118,13 @@ html{
   float:right;
 }
 
-#login{
+.login{
   background-color:#ED2f59;
   padding:5px 14px 5px 14px !important;
   border-radius:5px;
-margin-right:20px;
+margin-right:55px;
 margin-left:30px;
+font-family: 'Poppins', sans-serif;
 
   }
 
@@ -161,7 +167,7 @@ margin-left:30px;
     margin-left:25% !important;
     border-radius:10px;
     padding-bottom:100px;
-    top:58px !important;
+    top:55px !important;
     font-family: 'Poppins', sans-serif;
 
 
@@ -170,13 +176,18 @@ margin-left:30px;
   color:purple;
   font-weight:bolder;
   font-family: 'Poppins', sans-serif;
+  font-size:13px;
+  margin-top:15px !important;
+  margin-bottom:0px;
 
 }
+
 .dropdown-content p{
   color:black;
 font-size:12px;
 text-align:left;
 font-weight:bold;
+
 }
 
 
@@ -186,7 +197,7 @@ font-weight:bold;
     text-decoration: none;
     margin-top:15px;
     display: block;
-    font-size:12px;
+    font-size:11px;
   }
 
   .dropdown-content ul li a:hover{
@@ -208,8 +219,8 @@ cursor:pointer;
   }
 
   a.hover{
-    padding:8px;
-margin-top:-3px;
+    padding:5px;
+     margin-top:-3px;
   }
   a.hover a:hover{
     text-decoration:none !important;
@@ -321,7 +332,7 @@ font-size:14px;
 
 #main-form{
   height:700px;
-  margin-top:100px !important;
+  margin-top:80px !important;
   /* background-color: rgba(94,68,106, 0.9); */
   background-color:rgba(255, 255, 255, 0.2);
   border-radius:10px;
@@ -329,13 +340,14 @@ font-size:14px;
   box-shadow:0px 0px 1px 1px white;
   backdrop-filter:blur(20px);
 -webkit-backdrop-filter:blur(20px);
+padding-top:20px;
 
 }
 
 #main-form input{
   padding:22px;
   border-radius:10px;
-
+margin-bottom:13px;
 }
 #main-form small{
   font-weight:bolder;
