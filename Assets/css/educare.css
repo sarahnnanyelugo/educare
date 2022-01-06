@@ -332,7 +332,7 @@ font-size:14px;
 
 #main-form{
   height:520px;
-  margin-top:80px !important;
+  margin-top:83px !important;
   /* background-color: rgba(94,68,106, 0.9); */
   background-color:rgba(255, 255, 255, 0.2);
   border-radius:10px;
@@ -411,12 +411,22 @@ margin-left:10px;
 }
 #help h3{
   font-weight:bolder;
+  margin-top:80px;
+}
+
+#cross{
+  height:fit-content;
+  background-image: url(../img/cross.jpeg);
+background-size:60px;
+background-repeat:repeat-x repeat-y;
+padding-bottom:0;
 }
 .box2{
   height:190px;
   border:solid 1px #ECEBEC;
   margin:10px;
   border-radius:5px;
+  background-color:#fff;
 
 
 }
@@ -437,6 +447,7 @@ margin-left:10px;
   border-radius:5px;
   padding:60px;
   padding-left:40px ;
+  background-color:#fff;
 
 }
 .box22 a{
@@ -569,10 +580,11 @@ margin-left:10px;
 
 }
 #option h1{
-  margin-top:100px;
 text-align:center;
 font-family: 'Poppins', sans-serif;
 margin-bottom:30px;
+padding-top:160px;
+
 
 }
 #option p{
