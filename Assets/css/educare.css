@@ -659,6 +659,8 @@ margin-top:60px;
 
 #dash{
   text-align:center !important;
+  background-color:rgba(240, 235, 235, 0.5);
+
 }
 #dash h4{
 margin-top:10px;
@@ -674,7 +676,19 @@ margin-top:10px;
 #dash img{
   height:60px;
   margin-top:50px;
+  height:fit-content;
 }
+
+#cross2{
+  height:fit-content;
+  background-image: url(../img/cross.jpeg) !important;
+background-size:60px;
+background-repeat:repeat-x repeat-y;
+}
+
+
+
+
 #resources h3{
   margin-top:100px;
 font-weight:bolder;
