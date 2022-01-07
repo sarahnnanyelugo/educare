@@ -816,7 +816,13 @@ padding-top:15px;
   margin-top:80px;
   margin-bottom:50px;
 }
-
+.scale:hover{
+  filter: grayscale(0%) !important;
+}
+.scale2:hover{
+  filter: brightness(0.25)!important;
+  /* filter: invert(100%) !important; */
+}
 #dale{
   height:400px;
   background-color:#ED4659;
@@ -1722,7 +1728,8 @@ margin-bottom:60px !important;
   border:solid 1px rgb(223, 221, 221);
   box-shadow:0px 0px 1px 1px rgb(223, 221, 221);
   margin-left:10px;
-  padding-bottom:20px;
+  padding-bottom:10px;
+  padding-top:10px;
 
 }
 
