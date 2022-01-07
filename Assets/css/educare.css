@@ -383,23 +383,119 @@ text-align:center;
   font-weight:bold;
   margin-top:20px;
 }
-.box{
+
+.box-a{
   height:300px;
   border:solid 1px #E3E2E4;
   border-radius:10px;
+  background-image: url(../img/dots.png);
+  background-size:50px;
+background-repeat:no-repeat;
+padding-top:80px;
+margin-left:30px;
+}
 
+.box-a h6{
+  font-weight:bolder;
+  }
+
+.box-a:hover{
+  background-image: url(../img/dots2.svg);
+  background-size:50px;
+background-repeat:no-repeat;
+box-shadow:0px 0px 1px 1px #E3E2E4;
+transition:0.5s;
 }
-.box:hover{
-  box-shadow: 0px 0px 2px 2px #e6e3e3;
+
+
+.box-b{
+  height:300px;
+  border:solid 1px #E3E2E4;
+  border-radius:10px;
+  background-image: url(../img/orangeicon.png);
+  background-size:50px;
+background-repeat:no-repeat;
+padding-top:80px;
+margin-left:30px;
 }
-.box img{
-  height:50px;
-  margin-bottom:20px;
-  margin-top:25px;
+
+.box-b h6{
+  font-weight:bolder;
+  }
+
+.box-b:hover{
+  background-image: url(../img/orangeicon2.svg);
+  background-size:50px;
+background-repeat:no-repeat;
+box-shadow:0px 0px 1px 1px #E3E2E4;
+transition:0.5s;
 }
-.box h6{
-font-weight:bolder;
+
+
+
+
+
+
+.box-c{
+  height:300px;
+  border:solid 1px #E3E2E4;
+  border-radius:10px;
+  background-image: url(../img/greenicon.png);
+  background-size:50px;
+background-repeat:no-repeat;
+padding-top:80px;
+margin-left:30px;
 }
+
+.box-c h6{
+  font-weight:bolder;
+  }
+
+.box-c:hover{
+  background-image: url(../img/greenicon2.svg);
+  background-size:50px;
+background-repeat:no-repeat;
+box-shadow:0px 0px 1px 1px #E3E2E4;
+transition:0.5s;
+}
+
+
+
+
+
+.box-d{
+  height:300px;
+  border:solid 1px #E3E2E4;
+  border-radius:10px;
+  background-image: url(../img/blueicon.svg);
+  background-size:50px;
+background-repeat:no-repeat;
+padding-top:80px;
+margin-left:30px;
+}
+
+.box-d h6{
+  font-weight:bolder;
+  }
+
+.box-d:hover{
+  background-image: url(../img/blueicon2.svg);
+  background-size:60px;
+background-repeat:no-repeat;
+box-shadow:0px 0px 1px 1px #E3E2E4;
+transition:0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
 #help{
   color: #191919;
 text-align:center;

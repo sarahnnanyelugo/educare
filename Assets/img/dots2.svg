@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97">
+  <g id="Group_10379" data-name="Group 10379" transform="translate(-33 -69)">
+    <circle id="Ellipse_98" data-name="Ellipse 98" cx="48.5" cy="48.5" r="48.5" transform="translate(33 69)" fill="#ed2f59"/>
+    <g id="vuesax_bold_bubble" data-name="vuesax/bold/bubble" transform="translate(51.382 90.73)">
+      <g id="bubble">
+        <path id="Vector" d="M0,0H59.736V59.736H0Z" fill="none" opacity="0"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H59.736V59.736H0Z" fill="none" opacity="0"/>
+        <path id="Vector-3" data-name="Vector" d="M13.391,0A13.391,13.391,0,1,0,26.781,13.391,13.395,13.395,0,0,0,13.391,0Z" transform="translate(7.542 0)" fill="#fff"/>
+        <path id="Vector-4" data-name="Vector" d="M8.288,0a8.288,8.288,0,1,0,8.288,8.288A8.3,8.3,0,0,0,8.288,0Z" transform="translate(13.291 37.431)" fill="#fff"/>
+        <path id="Vector-5" data-name="Vector" d="M6.994,0a6.994,6.994,0,1,0,6.994,6.994A7,7,0,0,0,6.994,0Z" transform="translate(41.373 26.781)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
