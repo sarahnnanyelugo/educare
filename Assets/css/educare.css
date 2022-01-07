@@ -2013,10 +2013,11 @@ padding-right:25px !important;
 #top{
 
 font-size:15px;
-padding-bottom:0 !important;
+padding-bottom:0px !important;
 border-radius:5px;
  margin-bottom:20px;
  color:black !important;
+ overflow:hidden;
 }
 
 #top:hover{
