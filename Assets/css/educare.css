@@ -441,8 +441,8 @@ font-family: 'Poppins', sans-serif;
   }
 
   .box-b p{
-    font-family: 'Poppins', sans-serif;
-    font-size:13px;
+    font-family: 'Poppins regular';
+    font-size:15px;
     font-weight:50;
   
   }
@@ -485,8 +485,8 @@ font-family: 'Poppins', sans-serif;
   }
 
   .box-c p{
-    font-family: 'Poppins', sans-serif;
-    font-size:13px;
+    font-family: 'Poppins regular';
+    font-size:15px;
     font-weight:50;
   
   }
@@ -518,7 +518,7 @@ margin-right:15px;
 
 }
 .box-d p{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins regular';
   font-size:13px;
   font-weight:50;
 
@@ -526,7 +526,7 @@ margin-right:15px;
 .box-d h6{
   font-weight:bolder;
   font-family: 'Poppins', sans-serif;
-  margin-bottom:12px;
+  margin-bottom:15px;
 
   }
 
