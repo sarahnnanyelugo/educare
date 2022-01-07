@@ -1592,8 +1592,8 @@ margin-bottom:60px !important;
   font-size:12px;
 }
 #login-form{
-  height:600px;
-  margin-top:150px !important;
+  height:510px;
+  margin-top:10px !important;
   background-color:rgb(255, 255, 255);
   border-radius:10px;
   box-shadow:0px 0px 1px 1px white;
@@ -1605,11 +1605,18 @@ margin-bottom:60px !important;
 #login-form input{
   padding:22px;
   border-radius:10px;
+  margin-bottom:11px;
+  background-color:rgb(236, 232, 232);
+  box-shadow:0px 0px 1px 1px rgb(236, 232, 232);
+
 
 }
 #login-form button{
 
   border-radius:10px;
+  height:45px;
+  margin-top:30px;
+  margin-bottom:20px;
 
 }
 
