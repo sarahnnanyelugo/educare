@@ -391,12 +391,15 @@ text-align:center;
   background-image: url(../img/dots.png);
   background-size:50px;
 background-repeat:no-repeat;
-padding-top:80px;
 margin-left:30px;
+background-position:left 15px top 30px;
+padding-top:110px;
+
 }
 
 .box-a h6{
   font-weight:bolder;
+
   }
 
 .box-a:hover{
@@ -415,7 +418,8 @@ transition:0.5s;
   background-image: url(../img/orangeicon.png);
   background-size:50px;
 background-repeat:no-repeat;
-padding-top:80px;
+background-position:left 15px top 30px;
+padding-top:110px;
 margin-left:30px;
 }
 
@@ -443,7 +447,8 @@ transition:0.5s;
   background-image: url(../img/greenicon.png);
   background-size:50px;
 background-repeat:no-repeat;
-padding-top:80px;
+background-position:left 15px top 30px;
+padding-top:110px;
 margin-left:30px;
 }
 
@@ -470,7 +475,8 @@ transition:0.5s;
   background-image: url(../img/blueicon.svg);
   background-size:50px;
 background-repeat:no-repeat;
-padding-top:80px;
+background-position:left 15px top 30px;
+padding-top:110px;
 margin-left:30px;
 }
 
