@@ -763,6 +763,59 @@ margin-top:60px;
 
 }
 
+
+#cdale{
+  height:fit-content;
+  width:100%;
+  background-image:url(../img/default.png);
+  background-repeat:no-repeat;
+  background-size:620px;
+  background-position:left 850px top -70px;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+
+#lbss{
+  height:fit-content;
+  width:100%;
+  background-image:url(../img//bg2.png);
+  background-repeat:no-repeat;
+  background-size:500px;
+  background-position:left 990px top +60px;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+
+#immad{
+  height:fit-content;
+  width:100%;
+  background-image:url(../img//bg3.png);
+  background-repeat:no-repeat;
+  background-size:550px;
+  background-position:left 900px top 0px;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+#greg{
+  height:fit-content;
+  width:100%;
+  background-image:url(../img//lbsbg.png);
+  background-repeat:no-repeat;
+  background-size:500px;
+  background-position:left 980px top +60px;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+
+
 /* Hide the images by default */
  .mySlides {
   display: none;
@@ -974,10 +1027,10 @@ padding-top:15px;
   /* filter: invert(100%) !important; */
 }
 #dale{
-  height:400px;
-  background-color:#ED4659;
+  height:380px;
+  background-color:#ED2f59;
   border-radius:40px;
-  margin-right:-120px;
+  /* margin-right:-120px; */
   position:relative;
   z-index:2;
   padding:20px;
@@ -992,10 +1045,10 @@ padding-top:15px;
 }
 
 #lbs{
-  height:400px;
-  background-color:#345376;
+  height:380px;
+  background-color:#355376;
   border-radius:40px;
-  margin-right:-120px;
+  /* margin-right:-120px; */
   position:relative;
   z-index:2;
   padding:20px;
@@ -1010,10 +1063,9 @@ padding-top:15px;
 }
 
 #imad{
-  height:400px;
+  height:380px;
   background-color:#1D0862;
   border-radius:40px;
-  margin-right:-120px;
   position:relative;
   z-index:2;
   padding:30px;
@@ -1029,10 +1081,9 @@ padding-top:15px;
 
 
 #gregory{
-  height:400px;
+  height:380px;
   background-color:#212B62;
   border-radius:40px;
-  margin-right:-120px;
   position:relative;
   z-index:2;
   padding:10px;
