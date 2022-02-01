@@ -949,7 +949,6 @@ padding-top:15px;
 }
 
 
-
 .navigation {
   width:100%;
 margin: 0 auto;
@@ -966,7 +965,7 @@ color: #696666;
   text-align: left;
   border: solid 1px #EAEAEB;
   outline: none;
-  transition:1s !important;
+  /* transition:1s !important; */
   font-family: 'Poppins', sans-serif;
   font-weight:bold;
   font-size:18px;
