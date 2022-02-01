@@ -187,44 +187,51 @@
 
 
     <h3 style="text-align:center; font-family:poppins">Frequently asked questions (FAQs)</h3>
-
     <div class="col-md-12" style="display:flex">
-    <div class="col-md-1">&nbsp;</div>
-    <div class="col-md-10 ">
+	<nav class="navigation col-md-10">
 
-        <button class="accordion acc">How can I enroll my school? <img src="Assets/img/drop-icon.svg" height="20px" class="accordion:after" style="  float: right !important;
-            "></button>
-        <div class="panel">
-          <p>Getting your school enrolled is so easy. Just click on <a href="#">Sign Up</a> to onboard your school in seconds.</p>
-        </div>
+		<article >
+			<ul class="accordion" >
+				<li class="accordion__item">
+					<a href="#bud" class="accordion__link bud
+                    "id="open"  style="  color: #444;
+                    ">How can I enroll my school? </a>
+					<ul class="sub-accordion">
+						<li class="sub-accordion__item">Getting your school enrolled is so easy. Just click on <a href="#">Sign Up</a> to onboard your school in seconds</li>
 
-        <button class="accordion">Can one account manage multi schools?<img src="Assets/img/drop-icon.svg" height="20px" class="accordion:after" style="  float: right !important;
-            "></button>
-        <div class="panel">
-          <p>Educare gives you the power to manage all your schols with one single account. We also offer free data migration service for our enterprise customers</p>
-        </div>
-        <button class="accordion">How secure is my data?<img src="Assets/img/drop-icon.svg" height="20px" class="accordion:after" style="  float: right !important;
-            "></button>
-        <div class="panel">
-          <p>educare is GDPR COMPLIANT. From day one, we built educare to help
-               you manage your school efficiently. We do not share/sell your data.
-               The educare software is optimize with end-to-end encription to ensure maximum data security.</p>
-        </div>
+					</ul>
+				</li>
+				<li class="accordion__item">
+					<a href="#open2" class="accordion__link bud" id="bud2">Can one account manage multi schools?</a>
+					<ul class="sub-accordion">
+						<li class="sub-accordion__item">Educare gives you the power to manage all your schols with one single account. We also offer free data migration service for our enterprise customer</li>
 
+					</ul>
+				</li>
+				<li class="accordion__item">
+					<a href="#open3" class="accordion__link bud" id="bud3" style="  color: #444;
+                    ">How secure is my data?</a>
+					<ul class="sub-accordion">
+						<li class="sub-accordion__item">Educare is GDPR COMPLIANT. From day one, we built educare to help
+                            you manage your school efficiently. We do not share/sell your data.
+                            The educare software is optimize with end-to-end encription to ensure maximum data security.</li>
 
+					</ul>
+				</li>
+				<li class="accordion__item">
+					<a href="#open4" class="accordion__link" id="bud4">Do you offer phone support?</a>
+					<ul class="sub-accordion">
+						<li class="sub-accordion__item">Yes, our customer support team are here 24/7 to assist you with a prompt response. Give it a shot! Get help now</li>
 
-        <button class="accordion acc2">Do you offer phone support?<img src="Assets/img/drop-icon.svg" height="20px" class="accordion:after" style="  float: right !important;
-            "></button>
-        <div class="panel">
+					</ul>
+				</li>
 
-          <p>Yes, our customer support team are here 24/7 to assist you with a prompt response. Give it a shot! Get help now</p>
-        </div>
-
-
-
-
-</div>
+			</ul>
+		</article>
+	</nav>
     </div>
+
+
 
 </div>
 
@@ -259,5 +266,187 @@
   evt.currentTarget.className += " active2";
 }
 </script>
-</body>    
+
+
+
+<script>
+    function slide(link) {
+
+var down = function (callback, time) {
+var subMenu = link.nextElementSibling;
+var height = subMenu.clientHeight;
+var part = height / 100;
+
+var paddingTop = parseInt(window.getComputedStyle(subMenu, null).getPropertyValue('padding-top'));
+var paddingBottom = parseInt(window.getComputedStyle(subMenu, null).getPropertyValue('padding-bottom'));
+var paddingTopPart = parseInt(paddingTop) / 50;
+var paddingBottomPart = parseInt(paddingBottom) / 30;
+
+(function innerFunc(i, t, b) {
+
+  subMenu.style.height = i + 'px';
+
+  i += part;
+
+  if(t < paddingTop) {
+
+    t += paddingTopPart;
+    subMenu.style.paddingTop = t + 'px';
+
+  } else if(b < paddingBottom) {
+
+    b += paddingBottomPart;
+    subMenu.style.paddingBottom = b + 'px';
+  }
+
+  if(i < height) {
+
+    setTimeout(function() {
+
+        innerFunc(i, t, b);
+        
+    }, time / 100);
+      
+  } else {
+
+    subMenu.removeAttribute('style');
+    callback();
+  }
+    
+})(0, 0, 0);
+},
+
+up = function (callback, time) {
+
+var subMenu = link.nextElementSibling;
+var height = subMenu.clientHeight;
+var part = subMenu.clientHeight / 100;
+var paddingTop = parseInt(window.getComputedStyle(subMenu).paddingTop);
+var paddingBottom = parseInt(window.getComputedStyle(subMenu).paddingBottom);
+var paddingTopPart = parseInt(paddingTop) / 30;
+var paddingBottomPart = parseInt(paddingBottom) / 50;
+
+(function innerFunc(i, t, b) {
+
+  subMenu.style.height = i + 'px';
+
+  i -= part;
+  i = i.toFixed(2);
+
+  if(b > 0) {
+
+    b -= paddingBottomPart;
+    b = b.toFixed(1);
+    subMenu.style.paddingBottom = b + 'px';
+      
+  } else if(t > 0) {
+
+    t -= paddingTopPart;
+    t = t.toFixed(1);
+    subMenu.style.paddingTop = t + 'px';
+  }
+
+  if(i > 0) {
+
+    setTimeout(function() {
+        
+        innerFunc(i, t, b);
+
+    }, time / 100);
+      
+  } else {
+      
+    subMenu.removeAttribute('style');
+    callback(); 
+  }
+    
+})(height, paddingTop, paddingBottom);
+}
+
+return {
+down: down,
+up: up
+}
+}
+
+var accordion = (function() {
+
+var menu = document.querySelectorAll('.accordion');
+var activeClass = 'accordion__link_active';
+var arr = [];
+var timer = 100;
+
+for(let i = 0; i < menu.length; i++) {
+
+    for(let p = 0; p < menu[i].children.length; p++) {
+
+        var link = menu[i].children[p].firstElementChild;
+        
+        if(link.classList.contains(activeClass)) {
+            arr[i] = link;
+        }
+    }
+}
+
+function accordionInner(i) {
+        
+  var clicked = false;
+
+  menu[i].addEventListener('click', function(e) {
+
+    if(e.target.tagName === 'A' && !clicked) {
+
+      clicked = true;
+
+      if(e.target.classList.contains(activeClass)) {
+
+        slide(e.target).up(function() {
+
+          clicked = false;
+
+          e.target.classList.remove(activeClass);
+
+          console.log('slide up of accordion ' + i + ' is done');
+        
+        }, timer);
+
+      } else {
+
+        if(arr.length > 0) {
+
+          slide(arr[i-1]).up(function() {
+
+            arr[i-1].classList.remove(activeClass);
+
+            arr[i-1] = e.target;
+
+            console.log('slide up of accordion ' + i + ' is done');
+
+          }, timer);
+        }
+
+        e.target.classList.add(activeClass);
+
+        slide(e.target).down(function() {
+
+          clicked = false;
+          
+          arr[i-1] = e.target;
+
+          console.log('slide down of accordion ' + i + ' is done');
+        
+        }, timer);
+      }
+    }
+  });
+
+  i++;
+
+  if(i < menu.length) { accordionInner(i); }
+
+} accordionInner(0);
+})();
+
+</script>
+</body>
 </html>

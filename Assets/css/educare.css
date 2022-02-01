@@ -67,7 +67,6 @@ html{
   color:white;
   text-decoration:none;
   cursor:pointer;
-  /* transition: ease .5s; */
 
 }
 
@@ -951,36 +950,145 @@ padding-top:15px;
 
 
 
+.navigation {
+  width:100%;
+margin: 0 auto;
+color: #696666;
 
+}
 
 .accordion {
   background-color: white;
   color: #444;
   cursor: pointer;
-  padding: 25px;
+  border-radius:10px;
   width: 100%;
   text-align: left;
   border: solid 1px #EAEAEB;
   outline: none;
-  transition: 0.4s;
-  /* box-shadow:1px 1px 1px 1px #F2F2F2; */
+  transition:1s !important;
   font-family: 'Poppins', sans-serif;
   font-weight:bold;
   font-size:18px;
   box-shadow:0px 0px 2px 2px rgb(221, 219, 219);
+  padding:0;
+
 
 }
 
-.panel p{
+
+
+.accordion,
+.sub-accordion {
+	margin: 0;
+	list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.accordion__item {
+	background: #fff;
+	margin-bottom: 5px;
+    color: #444;
+  cursor: pointer;
+
+
+}
+
+.accordion__link {
+	font-size: 18px;
+	position: relative;
+    color: #444;
+	text-decoration: none;
+	display: block;
+	padding: 25px 50px 25px 25px;
+font-family: 'Poppins', sans-serif;
+
+}
+.bud{
+    border-bottom:solid 3px #EAEAEB;
+
+}
+.accordion__link:hover{
+    text-decoration:none;
+    color: #444;
+
+}
+
+.accordion__link:not(.accordion__link_active):after {
+	position: absolute;
+	content: "";
+	border-top: 12px grey solid;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	right: 22px;
+	top: 50%;
+	transform: translatey(-6px);
+}
+
+.sub-accordion {
+	padding: 20px 40px;
+    display: none;
+    height: 0;
+    overflow: hidden;
+    background-color: #F5F4F4;
+font-size:15px;
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+.accordion__link_active:after {
+	position: absolute;
+	content: "";
+	border-bottom: 12px grey solid;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	right: 22px;
+	top: 50%;
+	transform: translatey(-6px);
+}
+.accordion__link_active + ul{
+    display: block;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .panel p{
   font-family: 'Poppins', sans-serif;
   font-weight:bold;
 padding:18px 0 18px 0;
 font-size:14px;
 
-}
+} */
 
 
-.acc{
+/* .acc{
   border-top-right-radius:10px !important;
   border-top-left-radius:10px !important;
 
@@ -989,23 +1097,22 @@ font-size:14px;
   border-bottom-right-radius:10px !important;
   border-bottom-left-radius:10px !important;
 
-}
+} */
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 
 /* Style the accordion panel. Note: hidden by default */
-.panel {
+/* .panel {
 
     padding:0 28px ;
     background-color: #F5F4F4;
     max-height: 0;
     overflow: hidden !important;
-    /* transition: max-height 0.5s ease-out; */
     transition: ease .5s;
     box-shadow:0px 0px 5px 5px  #F5F4F4 !important;
 
-}
+} */
 
 /* .accordion:after {
   content: '';
@@ -1014,13 +1121,13 @@ font-size:14px;
   float: right !important;
   margin-left: 5px;
 } */
-.panel:checked + .accordion::after {
+/* .panel:checked + .accordion::after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-}
+} */
 
 
-.accordion::after {
+/* .accordion::after {
   content: "\276F";
   float:right;
   width: 16px;
@@ -1029,7 +1136,7 @@ font-size:14px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-
+ */
 
 /* .accordion::before {
   content: "";
@@ -1054,9 +1161,9 @@ font-size:14px;
 
 
 
-.active:after {
+/* .active:after {
   content: "";
-}
+} */
 
 
 
