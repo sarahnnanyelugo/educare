@@ -836,13 +836,13 @@ var paddingBottomPart = parseInt(paddingBottom) / 50;
   if(i > 0) {
 
     setTimeout(function() {
-        
+
         innerFunc(i, t, b);
 
     }, time / 100);
-      
+
   } else {
-      
+
     subMenu.removeAttribute('style');
     callback(); 
   }
@@ -868,7 +868,7 @@ for(let i = 0; i < menu.length; i++) {
     for(let p = 0; p < menu[i].children.length; p++) {
 
         var link = menu[i].children[p].firstElementChild;
-        
+
         if(link.classList.contains(activeClass)) {
             arr[i] = link;
         }
@@ -876,7 +876,7 @@ for(let i = 0; i < menu.length; i++) {
 }
 
 function accordionInner(i) {
-        
+
   var clicked = false;
 
   menu[i].addEventListener('click', function(e) {
@@ -894,7 +894,7 @@ function accordionInner(i) {
           e.target.classList.remove(activeClass);
 
           console.log('slide up of accordion ' + i + ' is done');
-        
+
         }, timer);
 
       } else {
@@ -917,7 +917,7 @@ function accordionInner(i) {
         slide(e.target).down(function() {
 
           clicked = false;
-          
+
           arr[i-1] = e.target;
 
           console.log('slide down of accordion ' + i + ' is done');
